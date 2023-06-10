@@ -1,4 +1,3 @@
-
 def isbn13(isbn):
 
     def _is_valid_isbn13(isbn):
@@ -33,10 +32,10 @@ def isbn13(isbn):
             return "Invalid"
     
     
-
-print(isbn13("0330301824")) # Invalid
-print(isbn13("877195869X")) # 9788771958690
-print(isbn13("9780316066525")) # Valid
-print(isbn13("0316066524")) # 9780316066525
+if __name__ == "__main__":
+    print(isbn13("0330301824")) # Invalid
+    print(isbn13("877195869X")) # 9788771958690
+    print(isbn13("9780316066525")) # Valid
+    print(isbn13("0316066524")) # 9780316066525
 
 
